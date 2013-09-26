@@ -53,6 +53,6 @@ if len(sys.argv) < 2:
 dir = sys.argv[1]
 files = os.listdir(dir)
 
-logging.info('Starting listening on localhost:8081')
+logging.info('Starting listening on marte:8081')
 bottle.debug(True)
-bottle.run(host='controller', port=8081)
+bottle.run(host='marte', port=8081)
